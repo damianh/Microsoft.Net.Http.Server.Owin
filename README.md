@@ -1,5 +1,5 @@
 # OWIN WebListener Host [![NuGet Badge](https://buildstats.info/nuget/OwinWebListenerHost)](https://www.nuget.org/packages/OwinWebListenerHost/)
-OWIN host for [Microsoft.Net.Http.Server](https://www.nuget.org/packages/Microsoft.Net.Http.Server) (aka WebListener)
+OWIN host for [Microsoft.Net.Http.Server](https://www.nuget.org/packages/Microsoft.Net.Http.Server) (aka WebListener). This is an adapted and tweaked version of Microsoft.Owin.Host.HttpListener.
 
 #### 1. Using With Microsoft.Owin.Hosting
 
