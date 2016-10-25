@@ -1,20 +1,21 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
-    <authors>$authors$</authors>
-    <owners>$authors$</owners>
-    <licenseUrl>$licenseUrl$</licenseUrl>
-    <projectUrl>$projectUrl$</projectUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <title>$title$</title>
-    <description>OWIN server built on the .NET Framework's WebListener class.</description>
-    <tags>$tags$</tags>
+    <id>OwinWebListenerHost</id>
+    <version>1.0.0</version>
+    <authors>Damian Hickey</authors>
+    <owners>Damian Hickey</owners>
+    <projectUrl>https://github.com/damianh/OwinWebListenerHost</projectUrl>
+    <title>OwinWebListenerHost</title>
+    <description>OWIN host built on the Microsoft.Net.Http.Server's WebListener class.</description>
+    <tags>owin WebListener Microsoft.Net.Http.Server http host</tags>
+    <dependencies>
+        <dependency id="Microsoft.Net.Http.Server" version="[1.0,2.0)" />
+    </dependencies>
   </metadata>
   <files>
-    <file src="OwinWebListenerHost.dll" target="lib\net451" />
-    <file src="OwinWebListenerHost.xml" target="lib\net451" />
-    <file src="OwinWebListenerHost.pdb" target="lib\net451" />
+    <file src="bin\Release\OwinWebListenerHost.dll" target="lib\net451" />
+    <file src="bin\Release\OwinWebListenerHost.xml" target="lib\net451" />
+    <file src="bin\Release\OwinWebListenerHost.pdb" target="lib\net451" />
   </files>
 </package>
